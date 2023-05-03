@@ -1,0 +1,50 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: orange;
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: 22px;
+}
+
+.main {
+    display: flex;
+
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 grey;
+    margin-left: 8%;
+    border: solid;
+    border-left-color: coral;
+    border-right-color: crimson;
+    border-top-color: darksalmon;
+    border-bottom-color: chocolate;
+    margin-top: 8%;
+    transition: 0.3s;
+    border-radius: 22px;
+    text-align: center;
+    position: static;
+    width: 15%;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px 0 greenyellow;
+    width: 17%;
+    color: orange;
+    border: solid white;
+}
+
+.container {
+    padding: 16px 2px;
+    font-family: cursive;
+    font-weight: 900;
+    color: white;
+}
